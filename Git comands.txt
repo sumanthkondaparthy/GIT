@@ -1,0 +1,26 @@
+1.Firstly create a directorhy in your local machine 
+   >>>> mkdir <dir_name>
+2. Now clone the URL from git 
+   >>>  git clone <url>
+
+3. check the branch
+      >>> git branch
+
+4. Now checkout form the url which u have cloned.
+   >>> git checkout -b <branch_name> <master>
+   ie.. checkout = will checkout form the main master branch (URL)
+        -b <branch_name> = will create the new branch in your local machine. 
+        <master> = the branch which u have created{<branch_name>} will be the master branch.
+    after checkout just verify the branch 
+      >>> git branch  (It must be in the new branch which u have created).
+
+5. After completing the necessary modifications in our code check the status 
+     >>> git status 
+6. Now add those code into the local branch
+    >>> git add .
+7. After adding check the status.
+8. Now commit it
+   >>> git commit -m "comments for you commit"
+9. Now push the code to the master.
+   >>> Git push origin <master> 
+   ie <master> = must be the master which u have created while checkout..
